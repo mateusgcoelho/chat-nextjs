@@ -1,0 +1,31 @@
+:root {
+  --background: #0a0a0a;
+  --primaryBlack: #141414;
+  --gray: #909090;
+  --lightGray: #676767;
+  --white: #ffffff;
+  --primaryColor: #a225d0;
+  --primaryColorLight: #dea0f5;
+  --hoverButton: #aa50ca;
+}
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: var(--background);
+  color: var(--white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
